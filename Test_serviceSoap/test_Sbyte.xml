@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="7865b629-7cd0-4541-aa66-d02c0cf965de" isOneWay="false" action="http://localhost/test_service/Service1.asmx/test_Sbyte" name="test_Sbyte" bindingOperationName="test_Sbyte" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="7865b629-7cd0-4541-aa66-d02c0cf965defileName">test_Sbyte</con:setting>
+  </con:settings>
+  <con:call id="8b5eb4ca-cf21-4760-8201-222aa13154b9" name="test_Sbyte Request">
+    <con:settings/>
+    <con:encoding>UTF-8</con:encoding>
+    <con:endpoint>http://rapis02.aqa.com.ru/SOAP/Service1.asmx</con:endpoint>
+    <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://localhost/test_service/Service1.asmx">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ser:test_Sbyte/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+    <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://localhost/test_service/Service1.asmx/test_Sbyte"/>
+  </con:call>
+</con:operation>
